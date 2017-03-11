@@ -1,0 +1,61 @@
+Xft.dpi: 85
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+URxvt*scrollBar: false
+URxvt*transparent: true
+URxvt*shading: 20
+URxvt.lineSpace: 1
+
+URxvt.font: xft:dejavu sans mono:size=12:style=book:antialias=true
+URxvt.boldFont: xft:dejavu sans mono:size=12:style=bold:antialias=true
+
+URxvt.keysym.C-0: command:\033]710;xft:dejavu sans mono:size=12:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=12:bold:antialias=true\007
+URxvt.keysym.C-1: command:\033]710;xft:dejavu sans mono:size=10:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=10:bold:antialias=true\007
+URxvt.keysym.C-2: command:\033]710;xft:dejavu sans mono:size=12:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=12:bold:antialias=true\007
+URxvt.keysym.C-3: command:\033]710;xft:dejavu sans mono:size=14:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=14:bold:antialias=true\007
+URxvt.keysym.C-4: command:\033]710;xft:dejavu sans mono:size=16:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=16:bold:antialias=true\007
+URxvt.keysym.C-5: command:\033]710;xft:dejavu sans mono:size=18:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=18:bold:antialias=true\007
+URxvt.keysym.C-6: command:\033]710;xft:dejavu sans mono:size=20:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=20:bold:antialias=true\007
+URxvt.keysym.C-7: command:\033]710;xft:dejavu sans mono:size=22:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=22:bold:antialias=true\007
+URxvt.keysym.C-8: command:\033]710;xft:dejavu sans mono:size=24:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=24:bold:antialias=true\007
+URxvt.keysym.C-9: command:\033]710;xft:dejavu sans mono:size=26:style=book:antialias=true\007\033]711;xft:dejavu sans mono:size=26:bold:antialias=true\007
+
+URxvt*background: #444444
+URxvt*foreground: #ffffff
+
+!black
+URxvt*color0: #333333
+URxvt*color8: #444444
+
+!red
+URxvt*color1: #d45e68
+URxvt*color9: #ED6975
+
+!green
+URxvt*color2: #d45e68
+URxvt*color10: #B8ED69
+
+!yellow
+URxvt*color3: #d4c95e
+URxvt*color11: #EDE169
+
+!blue
+URxvt*color4: #5ea4d4
+URxvt*color12: #69B8ED
+
+!magenta
+URxvt*color5: #d45ea4
+URxvt*color13: #ED69B8
+
+!cyan
+URxvt*color6: #5ED4C9
+URxvt*color14: #69EDE1
+
+!grey
+URxvt*color7: #AAAAAA
+URxvt*color15: #CCCCCC

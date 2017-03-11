@@ -1,0 +1,9 @@
+[user]
+	name = Censored
+	email = censored@censored.fr
+[core]
+	editor = vim
+[credential]
+	helper = cache
+[push]
+	default = simple
