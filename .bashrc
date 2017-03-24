@@ -16,9 +16,10 @@ fi
 
 # Put your fun stuff here.
 
+alias ls="ls --color=auto"
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown -h now"
-alias wifi="sudo nmtui"
+alias wifi="sudo wifi-menu"
 
 # Startx
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then exec startx; fi
