@@ -203,7 +203,7 @@ bar {
 }
 
 # Program to exec on startup
-exec feh --bg-scale /home/franck/.i3/wallpaper.jpeg
+exec feh --bg-scale /home/franck/.i3/wallpaper.jpg
 exec urxvtd --quiet --opendisplay --fork
 
 # To remove titlebar
