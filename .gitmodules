@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/candyVirus"]
 	path = .vim/bundle/candyVirus
 	url = https://github.com/ercolanelli-leo/candyVirus.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
