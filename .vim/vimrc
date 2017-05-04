@@ -7,9 +7,16 @@ call pathogen#helptags()
 set number
 set tabstop=4
 set noexpandtab
+set cindent
 runtime! config/**/*.vim
 colorscheme candy
 let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 highlight Normal ctermfg=white ctermbg=black
 filetype plugin indent off
+let g:DoxygenToolkit_commentType = "C++"
+let g:DoxygenToolkit_briefTag_pre="\\brief "
+let g:DoxygenToolkit_paramTag_pre="\\param "
+let g:DoxygenToolkit_returnTag="\\return "
+let g:DoxygenToolkit_blockHeader="//////////////////////////////////////////////////////////////////////////"
+let g:DoxygenToolkit_blockFooter="\n////////////////////////////////////////////////////////////////////////////"
