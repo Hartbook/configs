@@ -7,7 +7,6 @@ call pathogen#helptags()
 set number
 set tabstop=4
 set noexpandtab
-set textwidth=80
 runtime! config/**/*.vim
 colorscheme candy
 let g:cpp_class_scope_highlight = 1
